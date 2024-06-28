@@ -5,7 +5,9 @@ $x("//input[@id='ap_email']")
 # Continue button
 $x("//input[@id='continue']")
 # Conditions of use link
-$x("//a[text()='Conditions of Use']")
+$x("//a[contains(@href, 'ap_signin_notification_condition_of_use')]") # good option
+$x("//div[@id='legalTextRow']//a[text()='Conditions of Use']") #stable option - go to child element through parent element
+$x("//a[text()='Conditions of Use']") # works but not preferred
 # Privacy Notice link
 $x("//a[text()='Privacy Notice']")
 # Need help link
