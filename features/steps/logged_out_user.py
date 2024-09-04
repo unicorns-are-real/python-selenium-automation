@@ -18,4 +18,4 @@ def sign_in_field(context):
 @then('"Sign in with password" button is present')
 def sign_in_button(context):
     context.driver.find_element(By.ID, 'login').is_displayed(), 'Button "sign in with password" not displayed'
-    print('Test passed')
+

@@ -1,0 +1,47 @@
+body {
+    background-image: url("");
+    margin: 0;
+}
+
+.coffee .section {
+    padding: 5px;
+    margin-bottom: 25px;
+}
+
+h2 {
+    color: blue;
+}
+
+div.coffee {
+    background-image: url("");
+}
+
+div#header {
+    text-align: center;
+    color: #575748;
+    background-color: #e4ebf7;
+}
+
+.coffee, .section {
+    color: red;
+}
+
+div.coffee span {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:link {
+    color: black;
+}
+
+a:hover {
+    color: mediumpurple;
+}
+
+a:active {
+    color: aqua;
+}
